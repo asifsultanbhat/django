@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title%}
     
-  {% endblock title%}Zaabar Fashion</title>
+  {% endblock title%}ZAABAR FASHION</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <style>
     /* Custom CSS for the navigation links and background color */
     .navbar {
-      background-color: rgba(255, 182, 193, 0.6); /* Light pink color (palevioletred) */
+      background-color: rgba(235, 8, 216, 0.6); /* Light pink color (palevioletred) */
     }
     .nav-item a {
       font-weight: bold;
@@ -21,64 +21,40 @@
 <body>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Zaabar Fashion</a>
+      <a class="navbar-brand" href="/HOME">ZAABAR FASHION</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ALL CATEGORIES
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/HEALTH">HEALTH</a></li>
+            <li><a class="dropdown-item" href="/ACCESSORY">ACCESSORY</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/DIAPERING">DIAPERING</a></li>
+          </ul>
+        </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">BOY FASHION</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">GIRL FASHION</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              ALL CATEGORIES
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">HEALTH</a></li>
-              <li><a class="dropdown-item" href="#">ACCESSORY</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">DIAPERING</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              FEEDING
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">HEALTH</a></li>
-              <li><a class="dropdown-item" href="#">ACCESSORY</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">DIAPERING</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              TOYS
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">HEALTH</a></li>
-              <li><a class="dropdown-item" href="#">ACCESSORY</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">DIAPERING</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              FOOTWEAR
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">HEALTH</a></li>
-              <li><a class="dropdown-item" href="#">ACCESSORY</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">DIAPERING</a></li>
-            </ul>
+            <a class="nav-link active" aria-current="page" href="/BOYSFASHION">BOY FASHION</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact">CONTACT US</a>
+            <a class="nav-link"  href="/GIRLSFASHION">GIRL FASHION</a>
+          <li class="nav-item">
+            <a class="nav-link" href="/FOOTWEAR">FOOTWEAR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/TOYS">TOYS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/FEEDING">FEEDING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/CONTACT">CONTACT US</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
