@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path ,include
-from home import views
+from . import views
 urlpatterns = [
   path('',views.index, name='home'),
   path('HOME/',views.index, name='home'),
@@ -12,7 +12,7 @@ urlpatterns = [
   path('FEEDING/', views.feeding, name='feeding'),
   path('HEALTH/', views.HEALTH, name='HEALTH'),
   path('ACCESSORY/', views.ACCESSORY, name='ACCESSORY'),
-  path('DIAPERING/', views.DIAPERING, name='DIAPERING'),
+  path('DIAPERING/', views.DIAPERING, name='DIAPERING')
   #path('boysfashion/', views.boysfashion, name='boyssfashion'),
   
 ]

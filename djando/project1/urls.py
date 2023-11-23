@@ -22,6 +22,7 @@ admin.site.site_title = "Zaabar Fashion Admin Portal"
 admin.site.index_title = "Welcome to Zaabar Fashion Portal"
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('home.urls'))
+    path('', include('home.urls')),
+    
 ]
 

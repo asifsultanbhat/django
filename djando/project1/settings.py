@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'home.apps.HomeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -128,3 +129,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
     
 ]
+APPEND_SLASH = False
