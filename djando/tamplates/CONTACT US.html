@@ -8,23 +8,23 @@
 </div>
 <div class="container">
   <h1 class="text-center">Contact Us</h1>
-  <form method="post" action="/contact">
+  <form method="post" action="/CONTACT/">
     {% csrf_token %}
     <div class="mb-3">
       <label for="name" class="form-label">Name</label>
-      <input type="text" class="form-control" id="name" name="name" placeholder="Enter you name">
+      <input type="text" class="form-control" id="name" name ="name" placeholder="Enter you name">
     </div>
     <div class="mb-3">
       <label for="email" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="email"name="email" placeholder="name@example.com">
+      <input type="email" class="form-control" id="email"name ="email" placeholder="name@example.com">
     </div>
     <div class="mb-3">
       <label for="phone" class="form-label">Phone Number</label>
-      <input type="number" class="form-control" id="phone" name="phone" placeholder="91-XXXXXXXXX">
+      <input type="number" class="form-control" id="phone" name ="phone" placeholder="91-XXXXXXXXX">
     </div>
     <div class="mb-3">
       <label for="desc" class="form-label">Type here what you want to say..</label>
-      <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
+      <textarea class="form-control" id="desc" rows="3" name ="desc"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>

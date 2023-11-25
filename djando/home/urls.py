@@ -13,6 +13,7 @@ urlpatterns = [
   path('HEALTH/', views.HEALTH, name='HEALTH'),
   path('ACCESSORY/', views.ACCESSORY, name='ACCESSORY'),
   path('DIAPERING/', views.DIAPERING, name='DIAPERING')
+
   #path('boysfashion/', views.boysfashion, name='boyssfashion'),
   
 ]
